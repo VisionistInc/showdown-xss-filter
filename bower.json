@@ -1,0 +1,25 @@
+{
+  "name": "showdown-xss-filter",
+  "description": "XSS filter extension for Showdown",
+  "homepage": "https://github.com/VisionistInc/showdown-xss-filter",
+  "authors": [
+    "Visionist, Inc. (http://www.visionistinc.com)"
+  ],
+  "main": [
+    "./showdown-xss-filter.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:VisionistInc/showdown-xss-filter.git"
+  },
+  "keywords": [
+    "markdown",
+    "showdown",
+    "showdown extension",
+    "xss"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "xss": "0.2.x"
+  }
+}

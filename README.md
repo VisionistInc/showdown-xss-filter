@@ -1,6 +1,6 @@
 # showdown-xss-filter
 
-Showdown extension to filter XSS, using [leizongmin/js-xss](https://github.com/leizongmin/js-xss).
+[Showdown](https://github.com/showdownjs/showdown) extension to filter XSS, using [leizongmin/js-xss](https://github.com/leizongmin/js-xss).
 
 ## Client-side
 
@@ -16,9 +16,9 @@ var text = "<script>alert('xss!')</script>";
 console.log(converter.makeHtml(text));
 ```
 
-Note: for now, for use on the client side, users will have to manage the [leizongmin/js-xss](https://github.com/leizongmin/js-xss) dependency on their own.
+Note: be sure to include the dependency on [leizongmin/js-xss](https://github.com/leizongmin/js-xss) before this extension.
 
-## Server-side
+## Server-side (node)
 
 ```javascript
 var Showdown = require('showdown');
