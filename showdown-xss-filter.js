@@ -24,8 +24,8 @@
   };
 
   // Client-side export
-  if (typeof window !== 'undefined' && window.Showdown && window.Showdown.extensions) {
-    window.Showdown.extensions.xssfilter = xssfilter;
+  if (typeof window !== 'undefined' && window.showdown && window.showdown.extensions) {
+    window.showdown.extensions.xssfilter = xssfilter;
   }
 
   // Server-side export
