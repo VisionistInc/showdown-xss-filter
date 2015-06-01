@@ -11,7 +11,7 @@
 ```
 
 ```javascript
-var converter = new Showdown.converter({ extensions: ['xssfilter'] })
+var converter = new showdown.Converter({ extensions: ['xssfilter'] })
 var text = "<script>alert('xss!')</script>";
 console.log(converter.makeHtml(text));
 ```
@@ -21,9 +21,9 @@ Note: be sure to include the dependency on [leizongmin/js-xss](https://github.co
 ## Server-side (node)
 
 ```javascript
-var Showdown = require('showdown');
+var showdown = require('showdown');
 var xssFilter = require('showdown-xss-filter');
-var converter = new Showdown.converter({extensions: [xssFilter]});
+var converter = new showdown.Converter({extensions: [xssFilter]});
 
 var text = "<script>alert('xss!')</script>";
 console.log(converter.makeHtml(text));
