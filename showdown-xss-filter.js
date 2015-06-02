@@ -15,7 +15,7 @@
   var xssfilter = function (converter) {
     return [
       {
-        type: "lang",
+        type: "output",
         filter: function(text) {
           return filterXSS(text);
         }

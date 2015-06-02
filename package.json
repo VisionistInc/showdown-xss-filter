@@ -1,6 +1,6 @@
 {
   "name": "showdown-xss-filter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "XSS filter extension for showdown",
   "keywords": [
     "markdown",
@@ -21,5 +21,13 @@
   "main": "./showdown-xss-filter.js",
   "dependencies": {
     "xss": "0.2.x"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "mocha": "^2.2.4",
+    "showdown": "~1.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
