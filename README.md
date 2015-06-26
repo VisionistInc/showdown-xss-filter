@@ -2,6 +2,8 @@
 
 [Showdown](https://github.com/showdownjs/showdown) extension to filter XSS, using [leizongmin/js-xss](https://github.com/leizongmin/js-xss).
 
+[![npm version](https://badge.fury.io/js/showdown-xss-filter.svg)](http://badge.fury.io/js/showdown-xss-filter)
+
 ## Client-side
 
 ```html
