@@ -1,0 +1,14 @@
+!node_modules/
+node_modules/*
+
+# xss
+!node_modules/xss/
+node_modules/xss/*
+!node_modules/xss/dist/
+node_modules/xss/dist/*
+!node_modules/xss/dist/xss.min.js
+
+# showdown xss filter
+!node_modules/showdown-xss-filter/
+node_modules/showdown-xss-filter/*
+!node_modules/showdown-xss-filter/showdown-xss-filter.js
