@@ -5,10 +5,8 @@
   "author": "Visionist, Inc.",
   "license": "MIT",
   "dependencies": {
-    "codemirror": "~5.1.0",
     "express": "~4",
-    "showdown": "~1.0.2",
-    "showdown-xss-filter": "~0.1",
+    "showdown-xss-filter": "~0.2",
     "xss": "0.2.x"
   }
 }
