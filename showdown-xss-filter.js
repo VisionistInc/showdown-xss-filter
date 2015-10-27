@@ -25,7 +25,7 @@
 
   // Client-side export
   if (typeof window !== 'undefined' && window.showdown && window.showdown.extensions) {
-    window.showdown.extensions.xssfilter = xssfilter;
+    window.showdown.extension('xssfilter', xssfilter);
   }
 
   // Server-side export
